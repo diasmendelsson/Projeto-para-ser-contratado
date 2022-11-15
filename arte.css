@@ -1,0 +1,94 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+h1{
+   
+ background-image:url("img proje/pattern.jpeg");
+ text-align: center;
+ font-size: 100px;
+ height: 300px;
+ margin: 30px 20px;
+ font-family: 'Rubik', sans-serif;
+ color: #e9c46a;
+ padding: 20px;
+ overflow: hidden;
+ box-shadow: 0px 0px 5px 5px ;
+ border-radius: 10px;
+
+}
+
+.section1{
+    display: flex;
+}
+
+h2{
+    text-align: center;
+    font-size: 60px;
+    font-family: 'Rubik&display', sans-serif;
+    color: #bc6c25;
+    margin-top: 40px;
+    font-weight: 400;
+    letter-spacing: 0.2em;
+    
+}
+
+.titulo2{
+    text-align: center;
+    font-size: 60px;
+    font-family: 'Rubik&display', sans-serif;
+    color: #99582a;
+    margin-top: 40px;
+    font-weight: 400;
+    letter-spacing: 0.2em;
+}
+
+.titulo3{
+    text-align: center;
+    font-size: 60px;
+    font-family: 'Rubik&display', sans-serif;
+    color: #ef233c;
+    margin-top: 40px;
+    font-weight: 400;
+    letter-spacing: 0.2em;
+}
+
+p{
+
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    padding: 20px;
+    
+}
+
+.i1, .i2, .i3 {
+    position: relative;
+    top:30px;
+    left: 200px;
+    margin: 40px;
+    border-radius: 10px;
+    box-shadow: #e9c46a 0px 0px 5px 5px;
+}
+
+.o1, .o2, .o3 {
+    position: relative;
+    top:30px;
+    left: 200px;
+    margin: 40px;
+    border-radius: 10px;
+    box-shadow: #99582a 0px 0px 5px 5px;
+}
+
+.u1, .u2, .u3 {
+    position: relative;
+    top:30px;
+    left: 200px;
+    margin: 40px;
+    border-radius: 10px;
+    box-shadow: #ef233c 0px 0px 5px 5px;
+}
